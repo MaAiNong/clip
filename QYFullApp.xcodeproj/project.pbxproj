@@ -14,8 +14,6 @@
 		14CD21BE24CA826E0035C625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CD21BD24CA826E0035C625 /* Assets.xcassets */; };
 		14CD21C124CA826E0035C625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CD21BF24CA826E0035C625 /* LaunchScreen.storyboard */; };
 		14CD21C424CA826E0035C625 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CD21C324CA826E0035C625 /* main.m */; };
-		14CD21CE24CA826E0035C625 /* QYFullAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CD21CD24CA826E0035C625 /* QYFullAppTests.m */; };
-		14CD21D924CA826E0035C625 /* QYFullAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CD21D824CA826E0035C625 /* QYFullAppUITests.m */; };
 		14CD21EE24CA828F0035C625 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CD21ED24CA828F0035C625 /* AppDelegate.m */; };
 		14CD21F124CA828F0035C625 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CD21F024CA828F0035C625 /* SceneDelegate.m */; };
 		14CD21F424CA828F0035C625 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CD21F324CA828F0035C625 /* ViewController.m */; };
@@ -23,40 +21,10 @@
 		14CD21F924CA82900035C625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CD21F824CA82900035C625 /* Assets.xcassets */; };
 		14CD21FC24CA82900035C625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CD21FA24CA82900035C625 /* LaunchScreen.storyboard */; };
 		14CD21FF24CA82900035C625 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CD21FE24CA82900035C625 /* main.m */; };
-		14CD220A24CA82910035C625 /* KVAppClipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CD220924CA82910035C625 /* KVAppClipTests.m */; };
-		14CD221524CA82910035C625 /* KVAppClipUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CD221424CA82910035C625 /* KVAppClipUITests.m */; };
 		14CD221924CA82910035C625 /* KVAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 14CD21EA24CA828F0035C625 /* KVAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		14CD21CA24CA826E0035C625 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 14CD21A624CA826D0035C625 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 14CD21AD24CA826D0035C625;
-			remoteInfo = QYFullApp;
-		};
-		14CD21D524CA826E0035C625 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 14CD21A624CA826D0035C625 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 14CD21AD24CA826D0035C625;
-			remoteInfo = QYFullApp;
-		};
-		14CD220624CA82910035C625 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 14CD21A624CA826D0035C625 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 14CD21E924CA828F0035C625;
-			remoteInfo = KVAppClip;
-		};
-		14CD221124CA82910035C625 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 14CD21A624CA826D0035C625 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 14CD21E924CA828F0035C625;
-			remoteInfo = KVAppClip;
-		};
 		14CD221724CA82910035C625 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 14CD21A624CA826D0035C625 /* Project object */;
@@ -93,12 +61,6 @@
 		14CD21C024CA826E0035C625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14CD21C224CA826E0035C625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14CD21C324CA826E0035C625 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		14CD21C924CA826E0035C625 /* QYFullAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYFullAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		14CD21CD24CA826E0035C625 /* QYFullAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYFullAppTests.m; sourceTree = "<group>"; };
-		14CD21CF24CA826E0035C625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14CD21D424CA826E0035C625 /* QYFullAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYFullAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		14CD21D824CA826E0035C625 /* QYFullAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYFullAppUITests.m; sourceTree = "<group>"; };
-		14CD21DA24CA826E0035C625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14CD21EA24CA828F0035C625 /* KVAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14CD21EC24CA828F0035C625 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14CD21ED24CA828F0035C625 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -112,30 +74,11 @@
 		14CD21FD24CA82900035C625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14CD21FE24CA82900035C625 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14CD220024CA82900035C625 /* KVAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KVAppClip.entitlements; sourceTree = "<group>"; };
-		14CD220524CA82910035C625 /* KVAppClipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVAppClipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		14CD220924CA82910035C625 /* KVAppClipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVAppClipTests.m; sourceTree = "<group>"; };
-		14CD220B24CA82910035C625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14CD221024CA82910035C625 /* KVAppClipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVAppClipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		14CD221424CA82910035C625 /* KVAppClipUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVAppClipUITests.m; sourceTree = "<group>"; };
-		14CD221624CA82910035C625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14CD222424CAE5990035C625 /* QYFullApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QYFullApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		14CD21AB24CA826D0035C625 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14CD21C624CA826E0035C625 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14CD21D124CA826E0035C625 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -149,20 +92,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14CD220224CA82910035C625 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14CD220D24CA82910035C625 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -170,11 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				14CD21B024CA826D0035C625 /* QYFullApp */,
-				14CD21CC24CA826E0035C625 /* QYFullAppTests */,
-				14CD21D724CA826E0035C625 /* QYFullAppUITests */,
 				14CD21EB24CA828F0035C625 /* KVAppClip */,
-				14CD220824CA82910035C625 /* KVAppClipTests */,
-				14CD221324CA82910035C625 /* KVAppClipUITests */,
 				14CD21AF24CA826D0035C625 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -183,11 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				14CD21AE24CA826D0035C625 /* QYFullApp.app */,
-				14CD21C924CA826E0035C625 /* QYFullAppTests.xctest */,
-				14CD21D424CA826E0035C625 /* QYFullAppUITests.xctest */,
 				14CD21EA24CA828F0035C625 /* KVAppClip.app */,
-				14CD220524CA82910035C625 /* KVAppClipTests.xctest */,
-				14CD221024CA82910035C625 /* KVAppClipUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,6 +116,7 @@
 		14CD21B024CA826D0035C625 /* QYFullApp */ = {
 			isa = PBXGroup;
 			children = (
+				14CD222424CAE5990035C625 /* QYFullApp.entitlements */,
 				14CD21B124CA826D0035C625 /* AppDelegate.h */,
 				14CD21B224CA826D0035C625 /* AppDelegate.m */,
 				14CD21B424CA826D0035C625 /* SceneDelegate.h */,
@@ -208,24 +130,6 @@
 				14CD21C324CA826E0035C625 /* main.m */,
 			);
 			path = QYFullApp;
-			sourceTree = "<group>";
-		};
-		14CD21CC24CA826E0035C625 /* QYFullAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				14CD21CD24CA826E0035C625 /* QYFullAppTests.m */,
-				14CD21CF24CA826E0035C625 /* Info.plist */,
-			);
-			path = QYFullAppTests;
-			sourceTree = "<group>";
-		};
-		14CD21D724CA826E0035C625 /* QYFullAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				14CD21D824CA826E0035C625 /* QYFullAppUITests.m */,
-				14CD21DA24CA826E0035C625 /* Info.plist */,
-			);
-			path = QYFullAppUITests;
 			sourceTree = "<group>";
 		};
 		14CD21EB24CA828F0035C625 /* KVAppClip */ = {
@@ -245,24 +149,6 @@
 				14CD220024CA82900035C625 /* KVAppClip.entitlements */,
 			);
 			path = KVAppClip;
-			sourceTree = "<group>";
-		};
-		14CD220824CA82910035C625 /* KVAppClipTests */ = {
-			isa = PBXGroup;
-			children = (
-				14CD220924CA82910035C625 /* KVAppClipTests.m */,
-				14CD220B24CA82910035C625 /* Info.plist */,
-			);
-			path = KVAppClipTests;
-			sourceTree = "<group>";
-		};
-		14CD221324CA82910035C625 /* KVAppClipUITests */ = {
-			isa = PBXGroup;
-			children = (
-				14CD221424CA82910035C625 /* KVAppClipUITests.m */,
-				14CD221624CA82910035C625 /* Info.plist */,
-			);
-			path = KVAppClipUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,42 +173,6 @@
 			productReference = 14CD21AE24CA826D0035C625 /* QYFullApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		14CD21C824CA826E0035C625 /* QYFullAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 14CD21E024CA826E0035C625 /* Build configuration list for PBXNativeTarget "QYFullAppTests" */;
-			buildPhases = (
-				14CD21C524CA826E0035C625 /* Sources */,
-				14CD21C624CA826E0035C625 /* Frameworks */,
-				14CD21C724CA826E0035C625 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				14CD21CB24CA826E0035C625 /* PBXTargetDependency */,
-			);
-			name = QYFullAppTests;
-			productName = QYFullAppTests;
-			productReference = 14CD21C924CA826E0035C625 /* QYFullAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		14CD21D324CA826E0035C625 /* QYFullAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 14CD21E324CA826E0035C625 /* Build configuration list for PBXNativeTarget "QYFullAppUITests" */;
-			buildPhases = (
-				14CD21D024CA826E0035C625 /* Sources */,
-				14CD21D124CA826E0035C625 /* Frameworks */,
-				14CD21D224CA826E0035C625 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				14CD21D624CA826E0035C625 /* PBXTargetDependency */,
-			);
-			name = QYFullAppUITests;
-			productName = QYFullAppUITests;
-			productReference = 14CD21D424CA826E0035C625 /* QYFullAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		14CD21E924CA828F0035C625 /* KVAppClip */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14CD221A24CA82910035C625 /* Build configuration list for PBXNativeTarget "KVAppClip" */;
@@ -340,42 +190,6 @@
 			productReference = 14CD21EA24CA828F0035C625 /* KVAppClip.app */;
 			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
-		14CD220424CA82910035C625 /* KVAppClipTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 14CD221E24CA82910035C625 /* Build configuration list for PBXNativeTarget "KVAppClipTests" */;
-			buildPhases = (
-				14CD220124CA82910035C625 /* Sources */,
-				14CD220224CA82910035C625 /* Frameworks */,
-				14CD220324CA82910035C625 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				14CD220724CA82910035C625 /* PBXTargetDependency */,
-			);
-			name = KVAppClipTests;
-			productName = KVAppClipTests;
-			productReference = 14CD220524CA82910035C625 /* KVAppClipTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		14CD220F24CA82910035C625 /* KVAppClipUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 14CD222124CA82910035C625 /* Build configuration list for PBXNativeTarget "KVAppClipUITests" */;
-			buildPhases = (
-				14CD220C24CA82910035C625 /* Sources */,
-				14CD220D24CA82910035C625 /* Frameworks */,
-				14CD220E24CA82910035C625 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				14CD221224CA82910035C625 /* PBXTargetDependency */,
-			);
-			name = KVAppClipUITests;
-			productName = KVAppClipUITests;
-			productReference = 14CD221024CA82910035C625 /* KVAppClipUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -387,24 +201,8 @@
 					14CD21AD24CA826D0035C625 = {
 						CreatedOnToolsVersion = 12.0;
 					};
-					14CD21C824CA826E0035C625 = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 14CD21AD24CA826D0035C625;
-					};
-					14CD21D324CA826E0035C625 = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 14CD21AD24CA826D0035C625;
-					};
 					14CD21E924CA828F0035C625 = {
 						CreatedOnToolsVersion = 12.0;
-					};
-					14CD220424CA82910035C625 = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 14CD21E924CA828F0035C625;
-					};
-					14CD220F24CA82910035C625 = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 14CD21E924CA828F0035C625;
 					};
 				};
 			};
@@ -422,11 +220,7 @@
 			projectRoot = "";
 			targets = (
 				14CD21AD24CA826D0035C625 /* QYFullApp */,
-				14CD21C824CA826E0035C625 /* QYFullAppTests */,
-				14CD21D324CA826E0035C625 /* QYFullAppUITests */,
 				14CD21E924CA828F0035C625 /* KVAppClip */,
-				14CD220424CA82910035C625 /* KVAppClipTests */,
-				14CD220F24CA82910035C625 /* KVAppClipUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -442,20 +236,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14CD21C724CA826E0035C625 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14CD21D224CA826E0035C625 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		14CD21E824CA828F0035C625 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -463,20 +243,6 @@
 				14CD21FC24CA82900035C625 /* LaunchScreen.storyboard in Resources */,
 				14CD21F924CA82900035C625 /* Assets.xcassets in Resources */,
 				14CD21F724CA828F0035C625 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14CD220324CA82910035C625 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14CD220E24CA82910035C625 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,22 +260,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14CD21C524CA826E0035C625 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14CD21CE24CA826E0035C625 /* QYFullAppTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14CD21D024CA826E0035C625 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14CD21D924CA826E0035C625 /* QYFullAppUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		14CD21E624CA828F0035C625 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -521,45 +271,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14CD220124CA82910035C625 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14CD220A24CA82910035C625 /* KVAppClipTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		14CD220C24CA82910035C625 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14CD221524CA82910035C625 /* KVAppClipUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		14CD21CB24CA826E0035C625 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 14CD21AD24CA826D0035C625 /* QYFullApp */;
-			targetProxy = 14CD21CA24CA826E0035C625 /* PBXContainerItemProxy */;
-		};
-		14CD21D624CA826E0035C625 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 14CD21AD24CA826D0035C625 /* QYFullApp */;
-			targetProxy = 14CD21D524CA826E0035C625 /* PBXContainerItemProxy */;
-		};
-		14CD220724CA82910035C625 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 14CD21E924CA828F0035C625 /* KVAppClip */;
-			targetProxy = 14CD220624CA82910035C625 /* PBXContainerItemProxy */;
-		};
-		14CD221224CA82910035C625 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 14CD21E924CA828F0035C625 /* KVAppClip */;
-			targetProxy = 14CD221124CA82910035C625 /* PBXContainerItemProxy */;
-		};
 		14CD221824CA82910035C625 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 14CD21E924CA828F0035C625 /* KVAppClip */;
@@ -720,14 +434,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QYFullApp/QYFullApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K4FRFL27FN;
+				DEVELOPMENT_TEAM = 27A282F54N;
 				INFOPLIST_FILE = QYFullApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xkt.QYFullApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiyi.QYFullApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -738,92 +453,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QYFullApp/QYFullApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K4FRFL27FN;
+				DEVELOPMENT_TEAM = 27A282F54N;
 				INFOPLIST_FILE = QYFullApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xkt.QYFullApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiyi.QYFullApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		14CD21E124CA826E0035C625 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K4FRFL27FN;
-				INFOPLIST_FILE = QYFullAppTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xkt.QYFullAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYFullApp.app/QYFullApp";
-			};
-			name = Debug;
-		};
-		14CD21E224CA826E0035C625 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K4FRFL27FN;
-				INFOPLIST_FILE = QYFullAppTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xkt.QYFullAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYFullApp.app/QYFullApp";
-			};
-			name = Release;
-		};
-		14CD21E424CA826E0035C625 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K4FRFL27FN;
-				INFOPLIST_FILE = QYFullAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xkt.QYFullAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = QYFullApp;
-			};
-			name = Debug;
-		};
-		14CD21E524CA826E0035C625 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K4FRFL27FN;
-				INFOPLIST_FILE = QYFullAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xkt.QYFullAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = QYFullApp;
 			};
 			name = Release;
 		};
@@ -834,13 +474,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = KVAppClip/KVAppClip.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K4FRFL27FN;
+				DEVELOPMENT_TEAM = 27A282F54N;
 				INFOPLIST_FILE = KVAppClip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xkt.QYFullApp.Clip;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiyi.QYFullApp.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -853,91 +493,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = KVAppClip/KVAppClip.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K4FRFL27FN;
+				DEVELOPMENT_TEAM = 27A282F54N;
 				INFOPLIST_FILE = KVAppClip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xkt.QYFullApp.Clip;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiyi.QYFullApp.Clip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		14CD221F24CA82910035C625 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K4FRFL27FN;
-				INFOPLIST_FILE = KVAppClipTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xkt.QYFullApp.KVAppClipTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVAppClip.app/KVAppClip";
-			};
-			name = Debug;
-		};
-		14CD222024CA82910035C625 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K4FRFL27FN;
-				INFOPLIST_FILE = KVAppClipTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xkt.QYFullApp.KVAppClipTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVAppClip.app/KVAppClip";
-			};
-			name = Release;
-		};
-		14CD222224CA82910035C625 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K4FRFL27FN;
-				INFOPLIST_FILE = KVAppClipUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xkt.QYFullApp.KVAppClipUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KVAppClip;
-			};
-			name = Debug;
-		};
-		14CD222324CA82910035C625 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K4FRFL27FN;
-				INFOPLIST_FILE = KVAppClipUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xkt.QYFullApp.KVAppClipUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KVAppClip;
 			};
 			name = Release;
 		};
@@ -962,47 +526,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14CD21E024CA826E0035C625 /* Build configuration list for PBXNativeTarget "QYFullAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				14CD21E124CA826E0035C625 /* Debug */,
-				14CD21E224CA826E0035C625 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		14CD21E324CA826E0035C625 /* Build configuration list for PBXNativeTarget "QYFullAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				14CD21E424CA826E0035C625 /* Debug */,
-				14CD21E524CA826E0035C625 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		14CD221A24CA82910035C625 /* Build configuration list for PBXNativeTarget "KVAppClip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14CD221B24CA82910035C625 /* Debug */,
 				14CD221C24CA82910035C625 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		14CD221E24CA82910035C625 /* Build configuration list for PBXNativeTarget "KVAppClipTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				14CD221F24CA82910035C625 /* Debug */,
-				14CD222024CA82910035C625 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		14CD222124CA82910035C625 /* Build configuration list for PBXNativeTarget "KVAppClipUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				14CD222224CA82910035C625 /* Debug */,
-				14CD222324CA82910035C625 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
